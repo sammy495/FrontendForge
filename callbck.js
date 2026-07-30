@@ -22,7 +22,7 @@ function add(a, b) {
 function sub(a, b) {
   console.log(a - b);
 }
-calculate(2, 4, add);**/
+calculate(2, 4, add);
 
 //3 ⃣ Build a sequence using setTimeout where three callbacks run one 
 // after another to print "Start", "Processing", and "Done" with delays between each. 
@@ -37,3 +37,6 @@ function calls(s, p, d) {
   setTimeout(() => { console.log("Delay") }, 4000);
 }
 delay(calls);
+
+**/
+
